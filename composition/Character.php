@@ -20,12 +20,12 @@
             $this->name = $name;
         }
         
-        public function getWeapon() : string
+        public function getWeapon() : Weapon
         {
-            return $this->weapon;
+            return $this-> weapon;
         }
     
-        public function setWeapon(string $weapon) : void
+        public function setWeapon(Weapon $weapon) : void
         {
             $this->weapon = $weapon;
         }
